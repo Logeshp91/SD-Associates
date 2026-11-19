@@ -1,0 +1,23 @@
+# Environment files
+.env
+*.env.local
+
+# Keep template
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+*.zip
+
+# Database journal/locks
+data/*.db-journal
+backend/data/*.db-journal
+
+# Node modules
+node_modules/
+
+# Standalone sub-repositories
+/frontend/
+/backend/
+
